@@ -1,0 +1,17 @@
+# ==============================================================================
+# IDPruner Project Git Ignore File
+# ==============================================================================
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and setup scripts
+init.sh
+
+# Documentation generation and artifacts
+generate_doc.py
+pruning_documentation.md
+
+debug_run/

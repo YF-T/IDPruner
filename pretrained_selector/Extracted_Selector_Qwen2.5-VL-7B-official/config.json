@@ -1,0 +1,6 @@
+{
+    "in_features": 3584,
+    "hidden_dim": 1792,
+    "init_scale": 0.0001,
+    "architecture": "TransformerScorer"
+}
