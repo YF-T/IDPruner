@@ -31,7 +31,7 @@ shift 3
 METHODS_LIST=("$@")
 
 # 3. Task List
-TASKS=("textvqa" "mme" "pope" "docvqa" "gqa" "scienceqa_img" "ocrbench" "vizwiz_vqa" "mmstar" "chartqa" "ai2d" "mmbench_en_dev" "mmbench_cn_dev")
+TASKS=("textvqa" "mme" "pope" "docvqa" "scienceqa_img" "ocrbench" "mmstar" "chartqa" "ai2d" "mmbench_en_dev" "mmbench_cn_dev")
 
 # =====================================================
 

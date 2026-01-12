@@ -92,7 +92,7 @@ bash run_serial_eval.sh <gpu_id> <model_name> "<ratio_list>" <method_key_1> [met
     * `baseline` (Original model without pruning)
     * `vispruner`, `scope`, `hiprune`, `visionzip` (Other SOTA methods)
 *   **Supported Benchmarks**:
-    * `textvqa`, `mme`, `pope`, `docvqa`, `gqa`, `scienceqa_img`, `ocrbench`, `vizwiz_vqa`, `mmstar`, `chartqa`, `ai2d`, `mmbench_en_dev`, `mmbench_cn_dev`
+    * `textvqa`, `mme`, `pope`, `docvqa`, `scienceqa_img`, `ocrbench`, `mmstar`, `chartqa`, `ai2d`, `mmbench_en_dev`, `mmbench_cn_dev`
 
 **Example Command:**
 To evaluate IDPruner on Qwen2.5-VL-7B with 75% and 90% pruning ratios on GPU 0:
